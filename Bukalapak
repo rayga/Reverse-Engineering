@@ -1,0 +1,33 @@
+Chat online :
+https://www.bukalapak.com/online/online?user.ids=
+
+Class that i've checked :
+com->bukalapak->chatlib->ChatActivity_.class
+com->bukalapak->chatlib->ChatActivity.class
+
+com->bukalapak->chatlib->model->Chat.class
+com->bukalapak->chatlib->model->Message.class
+com->bukalapak->chatlib->model->MessageNotification.class
+com->bukalapak->chatlib->model->Product.class
+com->bukalapak->chatlib->model->Authentication.class
+
+BASE_URL = https://api.bukalapak.com/v2
+CHAT_WEB_SOCKET_URL = "wss://www.bukalapak.com/palaver/websocket
+
+Bukalapa encode username and password with Base64 (com->bukalapak->chatlib->util->Constant.class)
+code : return Base64.encodeToString((paramString1 + ":" + paramString2).getBytes(),2);
+
+Authenticate with Phone on this link (com->bukalapak->chatlib->service->AuthenticationService.class) :
+"https://api.bukalapak.com/v2/users_simple.json"
+
+Authentication for login in bukalapak on BASE_URL/authenticate.json with header (Authorization and "Using username&pass base64" with method POST)
+request Token link : BASE_URL/users/tokens.json
+
+Bukalapak's DB_NAME = BLCHATv3
+
+SensorManager on android Application can drain the battery life for few hours. 
+Sensors can't disable automatically when the screens turn off.
+src:https://developer.android.com/reference/android/hardware/SensorManager.html
+
+App Token : "dogx9rtfif40"
+
