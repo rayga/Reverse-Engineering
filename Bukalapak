@@ -31,3 +31,6 @@ src:https://developer.android.com/reference/android/hardware/SensorManager.html
 
 App Token : "dogx9rtfif40"
 
+\com\bukalapak\android\LoginActivity.class
+\com\bukalapak\android\manager\ShakingManager.class
+
