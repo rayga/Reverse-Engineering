@@ -1,4 +1,11 @@
 javadecompilers.com/apk
 Nama Database : BookDB
+1AyoKeMasjid_v0.3_apkpure.com_dex2jar.jar!\com\google\android\gms\security\ProviderInstaller.class
+Using GmsCore_OpenSSL, highly vulnerable version of OpenSSL
+  public static final String PROVIDER_NAME = "GmsCore_OpenSSL"
+
+Vulner with Shellshock, XSS Attack.
+This site using portsentry to manipulate attacker
+
 
 anddroid-com-_android-volley-request.java
