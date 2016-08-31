@@ -7,5 +7,10 @@ Using GmsCore_OpenSSL, highly vulnerable version of OpenSSL
 Vulner with Shellshock, XSS Attack.
 This site using portsentry to manipulate attacker
 
+"/app_mobiles/get_kriteria_iklan.php?kriteria=" +
+http://195.110.58.111/ikcv20//app_mobiles/get_kriteria_iklan.php?kriteria=
+
+
+
 
 anddroid-com-_android-volley-request.java
